@@ -9,6 +9,11 @@ import SwiftUI
 
 struct Company: View {
     var body: some View {
-        Text("Enter 1,3,4")
+        Text("บริษัท นาซ่าไฟร์โปรดัคส์แอนด์เซฟตี้ จำกัด")
+            .font(.system(size: 20,design: .rounded))
+            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+        Text("ทำธุรกิจเกี่ยวกับอุปกรณ์ดับเพลิง")
+            .font(.system(size: 20,design: .rounded))
+            .padding(.top, 10)
     }
 }
