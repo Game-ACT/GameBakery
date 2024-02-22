@@ -8,8 +8,12 @@ struct MainMenu: View {
                     
                     Spacer()
                     
-                    NavigationLink(destination: Menu()) {
-                        Text("Menu")
+                    // enter product picture and name
+                    
+                    Spacer()
+                    
+                    NavigationLink(destination: Product()) {
+                        Text("Product Info")
                             .frame(minWidth: 0,maxWidth: .infinity, maxHeight: 70)
                             .background(.green)
                             .font(.system(size: 27,design: .rounded))
@@ -30,7 +34,7 @@ struct MainMenu: View {
                             .padding(.horizontal, 20)
                     }
                 }
-                .navigationTitle("GameBakery")
+                .navigationTitle("Innovation Showcase")
             }
         }
     }

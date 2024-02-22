@@ -59,7 +59,3 @@ struct Developer: View {
         }
     }
 }
-
-#Preview {
-    Developer()
-}
