@@ -15,7 +15,7 @@ struct AboutUs: View {
                 Text("About what?")
                     .font(.system(size: 20, design: .rounded))
                     .padding(10)
-                NavigationLink(destination: Bakery()) {
+                NavigationLink(destination: Company()) {
                     Text("Bakery")
                         .frame(minWidth: 0,maxWidth: .infinity, maxHeight: 70)
                         .background(.green)

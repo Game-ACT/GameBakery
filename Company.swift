@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Bakery: View {
+struct Company: View {
     var body: some View {
         Text("PlaceHolder")
     }
