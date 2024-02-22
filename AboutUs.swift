@@ -37,7 +37,7 @@ struct AboutUs: View {
                         .padding(.horizontal, 20)
                 }
             }
-            .navigationTitle("About")
+            .navigationTitle("About Us")
         }
     }
 }
