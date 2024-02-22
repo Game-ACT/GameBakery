@@ -12,52 +12,64 @@ struct Menu: View {
         ZStack {
             VStack {
                 HStack {
-                    Image(systemName: "car")
-                        .resizable()
-                        .frame(width: 150, height: 150)
-                        .overlay(Rectangle().stroke(Color.green, lineWidth: 15))
-                        .cornerRadius(5)
-                        .shadow(radius: 10)
-                        .padding(10)
-                    Image(systemName: "car")
-                        .resizable()
-                        .frame(width: 150, height: 150)
-                        .overlay(Rectangle().stroke(Color.green, lineWidth: 15))
-                        .cornerRadius(5)
-                        .shadow(radius: 10)
-                        .padding(10)
+                    NavigationLink(destination: TopLeft()) {
+                        Image(systemName: "car")
+                            .resizable()
+                            .frame(width: 150, height: 150)
+                            .overlay(Rectangle().stroke(Color.green, lineWidth: 15))
+                            .cornerRadius(5)
+                            .shadow(radius: 10)
+                            .padding(10)
+                    }
+                    NavigationLink(destination: TopRight()) {
+                        Image(systemName: "car")
+                            .resizable()
+                            .frame(width: 150, height: 150)
+                            .overlay(Rectangle().stroke(Color.green, lineWidth: 15))
+                            .cornerRadius(5)
+                            .shadow(radius: 10)
+                            .padding(10)
+                    }
                 }
                 HStack {
-                    Image(systemName: "car")
-                        .resizable()
-                        .frame(width: 150, height: 150)
-                        .overlay(Rectangle().stroke(Color.green, lineWidth: 15))
-                        .cornerRadius(5)
-                        .shadow(radius: 10)
-                        .padding(10)
-                    Image(systemName: "car")
-                        .resizable()
-                        .frame(width: 150, height: 150)
-                        .overlay(Rectangle().stroke(Color.green, lineWidth: 15))
-                        .cornerRadius(5)
-                        .shadow(radius: 10)
-                        .padding(10)
+                    NavigationLink(destination: MiddleLeft()) {
+                        Image(systemName: "car")
+                            .resizable()
+                            .frame(width: 150, height: 150)
+                            .overlay(Rectangle().stroke(Color.green, lineWidth: 15))
+                            .cornerRadius(5)
+                            .shadow(radius: 10)
+                            .padding(10)
+                    }
+                    NavigationLink(destination: MiddleRight()) {
+                        Image(systemName: "car")
+                            .resizable()
+                            .frame(width: 150, height: 150)
+                            .overlay(Rectangle().stroke(Color.green, lineWidth: 15))
+                            .cornerRadius(5)
+                            .shadow(radius: 10)
+                            .padding(10)
+                    }
                 }
                 HStack {
-                    Image(systemName: "car")
-                        .resizable()
-                        .frame(width: 150, height: 150)
-                        .overlay(Rectangle().stroke(Color.green, lineWidth: 15))
-                        .cornerRadius(5)
-                        .shadow(radius: 10)
-                        .padding(10)
-                    Image(systemName: "car")
-                        .resizable()
-                        .frame(width: 150, height: 150)
-                        .overlay(Rectangle().stroke(Color.green, lineWidth: 15))
-                        .cornerRadius(5)
-                        .shadow(radius: 10)
-                        .padding(10)
+                    NavigationLink(destination: BottomLeft()) {
+                        Image(systemName: "car")
+                            .resizable()
+                            .frame(width: 150, height: 150)
+                            .overlay(Rectangle().stroke(Color.green, lineWidth: 15))
+                            .cornerRadius(5)
+                            .shadow(radius: 10)
+                            .padding(10)
+                    }
+                    NavigationLink(destination: BottomRight()) {
+                        Image(systemName: "car")
+                            .resizable()
+                            .frame(width: 150, height: 150)
+                            .overlay(Rectangle().stroke(Color.green, lineWidth: 15))
+                            .cornerRadius(5)
+                            .shadow(radius: 10)
+                            .padding(10)
+                    }
                 }
             }
             .navigationTitle("Menu")
