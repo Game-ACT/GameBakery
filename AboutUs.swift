@@ -36,6 +36,16 @@ struct AboutUs: View {
                         .cornerRadius(10)
                         .padding(.horizontal, 20)
                 }
+                NavigationLink(destination: Developer2()) {
+                    Text("Developer (2)")
+                        .frame(minWidth: 0,maxWidth: .infinity, maxHeight: 70)
+                        .background(.green)
+                        .font(.system(size: 27,design: .rounded))
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                        .padding(.horizontal, 20)
+                }
             }
             .navigationTitle("About")
         }

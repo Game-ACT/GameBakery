@@ -5,6 +5,14 @@ struct MainMenu: View {
         NavigationView {
             ZStack {
                 VStack {
+                    Image("FLAMEXMain")
+                        .resizable()
+                        .frame(width: 300, height: 400)
+                        .overlay(Rectangle().stroke(Color.green, lineWidth: 10))
+                        .cornerRadius(5)
+                        .shadow(radius: 10)
+                        .padding(.horizontal,10)
+                        .padding(.top, 30)
                     
                     Spacer()
                     
@@ -30,7 +38,7 @@ struct MainMenu: View {
                             .padding(.horizontal, 20)
                     }
                 }
-                .navigationTitle("GameBakery")
+                .navigationTitle("FLAMEX Reserch")
             }
         }
     }
