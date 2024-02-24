@@ -8,7 +8,14 @@ struct MainMenu: View {
                     
                     Spacer()
                     
-                    // enter product picture and name
+                    Image("Product")
+                        .resizable()
+                        .frame(width: 250,height: 400)
+                        .aspectRatio(contentMode: .fit)
+                        .overlay(Rectangle().stroke(Color.green, lineWidth: 5))
+                    Text("FLAMEX")
+                        .font(.system(size: 23,weight: .bold))
+                        .padding(.top, 20)
                     
                     Spacer()
                     
