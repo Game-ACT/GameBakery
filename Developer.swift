@@ -41,21 +41,8 @@ struct Developer: View {
                     .fontWeight(.bold)
                     .padding(.top, 10)
                 
-                Spacer()
-                
-                NavigationLink(destination: Source()) {
-                    Text("Resources Used")
-                        .frame(minWidth: 0,maxWidth: .infinity, maxHeight: 70)
-                        .background(.green)
-                        .font(.system(size: 27,design: .rounded))
-                        .fontWeight(.bold)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
-                        .padding(.horizontal, 20)
-                }
             }
             .navigationTitle("About Developer")
-            .navigationBarTitleDisplayMode(.large)
         }
     }
 }
