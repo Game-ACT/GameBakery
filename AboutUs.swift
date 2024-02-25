@@ -12,7 +12,7 @@ struct AboutUs: View {
         ZStack {
             VStack {
                 
-                Text("About?")
+                Text("About What?")
                     .font(.system(size: 20, design: .rounded))
                     .padding(10)
                 NavigationLink(destination: Company()) {
