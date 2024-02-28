@@ -40,7 +40,8 @@ struct Developer: View {
                     .font(.system(.headline,design: .rounded))
                     .fontWeight(.bold)
                     .padding(.top, 10)
-                
+
+                Spacer()
             }
             .navigationTitle("About Developer")
         }
